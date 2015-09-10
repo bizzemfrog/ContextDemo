@@ -14,6 +14,8 @@
 		52ABC8311BA1663500F4CF0A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52ABC8301BA1663500F4CF0A /* Images.xcassets */; };
 		52ABC8341BA1663500F4CF0A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52ABC8321BA1663500F4CF0A /* LaunchScreen.xib */; };
 		52ABC8401BA1663500F4CF0A /* ContextDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ABC83F1BA1663500F4CF0A /* ContextDemoTests.swift */; };
+		52ABC84A1BA166DC00F4CF0A /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ABC8491BA166DC00F4CF0A /* Stack.swift */; };
+		52ABC8521BA17BB500F4CF0A /* MSGMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ABC8511BA17BB500F4CF0A /* MSGMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		52ABC8391BA1663500F4CF0A /* ContextDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContextDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52ABC83E1BA1663500F4CF0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52ABC83F1BA1663500F4CF0A /* ContextDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextDemoTests.swift; sourceTree = "<group>"; };
+		52ABC8491BA166DC00F4CF0A /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		52ABC8511BA17BB500F4CF0A /* MSGMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGMessage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		52ABC8231BA1663500F4CF0A /* ContextDemo */ = {
 			isa = PBXGroup;
 			children = (
+				52ABC8511BA17BB500F4CF0A /* MSGMessage.swift */,
 				52ABC8261BA1663500F4CF0A /* AppDelegate.swift */,
 				52ABC82B1BA1663500F4CF0A /* ViewController.swift */,
 				52ABC82D1BA1663500F4CF0A /* Main.storyboard */,
@@ -86,6 +91,7 @@
 				52ABC8321BA1663500F4CF0A /* LaunchScreen.xib */,
 				52ABC8281BA1663500F4CF0A /* ContextDemo.xcdatamodeld */,
 				52ABC8241BA1663500F4CF0A /* Supporting Files */,
+				52ABC8491BA166DC00F4CF0A /* Stack.swift */,
 			);
 			path = ContextDemo;
 			sourceTree = "<group>";
@@ -215,6 +221,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52ABC8521BA17BB500F4CF0A /* MSGMessage.swift in Sources */,
+				52ABC84A1BA166DC00F4CF0A /* Stack.swift in Sources */,
 				52ABC82C1BA1663500F4CF0A /* ViewController.swift in Sources */,
 				52ABC82A1BA1663500F4CF0A /* ContextDemo.xcdatamodeld in Sources */,
 				52ABC8271BA1663500F4CF0A /* AppDelegate.swift in Sources */,
